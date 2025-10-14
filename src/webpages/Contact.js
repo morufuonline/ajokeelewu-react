@@ -49,7 +49,7 @@ const Contact = () => {
         <div className="col-md-5 content-body">
 
         <div className="body-header"><FaMapMarkerAlt /> Address</div>
-        <p className="align-center">23, Unity Cresent Ajasa Command, Alimosho LGA, Lagos Nigeria.</p>
+        <p className="align-center">23, Unity Cresent Ajasa Command, Alimosho LGA, Lagos Nigeria. </p>
 
         <div className="body-header"><FaRegEnvelope /> Email</div>
         <p className="align-center"><Link to={`mailto:${AppEmail}`}>{AppEmail}</Link></p>
