@@ -67,7 +67,7 @@ const Contact = () => {
         <div className="special-title border-radius"><FaRegEnvelope style={{fontSize:"25px"}} /> Send us a mail</div>
         <fieldset className="border-radius">
 
-        <div className="form-group input-group">
+        <div className="form-group input-group"> 
         <span className="input-group-addon"><FaUser /></span>
         <input type="text" name="name" id="name" className="form-control" placeholder="Your Full Name *" required value={contactName} onChange={(e) => setContactName(e.target.value)} />
         </div>
